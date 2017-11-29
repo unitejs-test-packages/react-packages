@@ -7,6 +7,6 @@ node unitejs/cli/bin/unite configure --packageName=react-javascript --title="Rea
 node unitejs/cli/bin/unite configure --packageName=react-typescript-amd --title="React TypeScript CommonJS" --profile=ReactTypeScript --moduleType=CommonJS --bundler=Webpack --outputDirectory=./apps/react-typescript-commonjs
 # node unitejs/cli/bin/unite package --packageName=moment --outputDirectory=./apps/react-typescript-commonjs
 
-node unitejs/cli/bin/unite configure --packageName=react-typescript-systemjs --title="React TypeScript SystemJS" --profile=ReactTypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --outputDirectory=./apps/react-typescript-systemjs
+node unitejs/cli/bin/unite configure --packageName=react-typescript-systemjs --title="React TypeScript SystemJS" --profile=ReactTypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestEngine=ChromeHeadless --outputDirectory=./apps/react-typescript-systemjs
 # node unitejs/cli/bin/unite package --packageName=moment --outputDirectory=./apps/react-typescript-systemjs
 
