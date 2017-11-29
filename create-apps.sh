@@ -9,4 +9,3 @@ node unitejs/cli/bin/unite configure --packageName=react-typescript-amd --title=
 
 node unitejs/cli/bin/unite configure --packageName=react-typescript-systemjs --title="React TypeScript SystemJS" --profile=ReactTypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestEngine=ChromeHeadless --outputDirectory=./apps/react-typescript-systemjs
 # node unitejs/cli/bin/unite package --packageName=moment --outputDirectory=./apps/react-typescript-systemjs
-
