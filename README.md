@@ -3,6 +3,7 @@
 ## UniteJS Operations
 
 * unite configure --profile=ReactJavaScript/ReactTypeScript
+* unite package --packageName=lodash
 * unite package --packageName=moment
 
 ## Build Operations
