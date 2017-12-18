@@ -9,7 +9,7 @@ node unitejs/unitejs-cli/bin/unite package --packageName=moment --outputDirector
 node unitejs/unitejs-cli/bin/unite package --packageName=rxjs --outputDirectory=./apps/react-javascript-commonjs
 node unitejs/unitejs-cli/bin/unite package --packageName=underscore --outputDirectory=./apps/react-javascript-commonjs
 
-node unitejs/unitejs-cli/bin/unite configure --packageName=react-javascript-systemjs --title="React JavaScript SystemJS" --profile=ReactJavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --outputDirectory=./apps/react-javascript-systemjs
+node unitejs/unitejs-cli/bin/unite configure --packageName=react-javascript-systemjs --title="React JavaScript SystemJS" --profile=ReactJavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestEngine=ChromeHeadless  --outputDirectory=./apps/react-javascript-systemjs
 mkdir -p ./apps/react-javascript-systemjs/www/test/e2e/src/examples/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/examples/*.js $_
 mkdir -p ./apps/react-javascript-systemjs/www/test/e2e/src/helpers/ && cp -r ./unitejs/unitejs-packages/test/e2e/src/helpers/*.js $_
 node unitejs/unitejs-cli/bin/unite package --packageName=lodash --outputDirectory=./apps/react-javascript-systemjs
